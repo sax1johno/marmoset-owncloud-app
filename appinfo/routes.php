@@ -8,8 +8,9 @@
  * it's instantiated in there
  */
 return [
-    'routes' => [
-	   ['name' => 'page#index', 'url' => '/', 'verb' => 'GET'],
-	   ['name' => 'page#do_echo', 'url' => '/echo', 'verb' => 'POST'],
-    ]
+  ['name' => 'display#showMarmosetViewer', 'url' => '/', 'verb' => 'GET'],
+  ['name' => 'FileHandling#save', 'url' => '/ajax/savefile', 'verb' => 'PUT'],
+  ['name' => 'FileHandling#load', 'url' => '/ajax/loadfile', 'verb' => 'GET'],
+  ['name' => 'PublicFileHandling#save', 'url' => '/share/save', 'verb' => 'PUT'],
+  ['name' => 'PublicFileHandling#load', 'url' => '/public/{token}', 'verb' => 'GET']
 ];
