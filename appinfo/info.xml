@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>marmosetviewer</id>
+    <name>Marmoset Viewer</name>
+    <summary>3D file viewer based on the Marmoset 3D Viewer</summary>
+    <description><![CDATA[View 3D files stored in OwnCloud in the Marmoset 3D viewer:
+
+https://marmoset.co/viewer/]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="sax1johno@gmail.com" homepage="https://www.johnwoconnor.com">John O&#39;Connor</author>
+    <namespace>MarmosetViewer</namespace>
+    <category>tools</category>
+    <bugs>https://www.github.com/sax1johno/marmoset-nextcloud</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Marmoset Viewer</name>
+            <route>marmosetviewer.page.index</route>
+        </navigation>
+    </navigations>
+</info>

@@ -1,0 +1,15 @@
+{
+    "name": "Marmoset Viewer",
+    "description": "3D file viewer based on the Marmoset 3D Viewer",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "John O&#39;Connor"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
